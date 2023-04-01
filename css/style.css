@@ -1,22 +1,4 @@
 /******* Bootstrap Theming ********/
-.test1 {
-  display: flex;
-  justify-content: center;
-}
-
-.test2 {
-    min-height: 400px;
-    display: flex;
-    align-items: center;
-}
-
-.test3 {
-  min-height: 400px;
-  display: flex;
-  align-items: center;
-  justify-content: center;;
-}
-
 /*!
  * Bootstrap v4.5.3 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
