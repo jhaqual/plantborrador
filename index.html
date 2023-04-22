@@ -30,15 +30,6 @@
     <div class="container-fluid bg-primary py-3">
         <div class="container">
             <div class="row">
-                <!-- <div class="col-md-6 text-center text-lg-left mb-2 mb-lg-0">
-                    <div class="d-inline-flex align-items-center">
-                        <a class="text-white pr-3" href="">FAQs</a>
-                        <span class="text-white">|</span>
-                        <a class="text-white px-3" href="">Help</a>
-                        <span class="text-white">|</span>
-                        <a class="text-white pl-3" href="">Support</a>
-                    </div>
-                </div> -->
                 <div class="col-md-6 text-center text-lg-left">
                     <div class="d-inline-flex align-items-center">
                         <a class="text-white px-3"  href="https://www.instagram.com/plantxanita/" target="_blank" rel="noopener noreferrer">
@@ -55,7 +46,8 @@
     <!-- Navbar Start -->
     <div class="container-fluid position-relative nav-bar p-0">
         <div class="container-lg position-relative p-0 px-lg-3" style="z-index: 9;">
-            <nav class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0 pl-3 pl-lg-5">
+            <nav class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0 pl-3 pl-lg-2">
+                <img class="logo" src="img/plantxanita_logo.png" alt="plantxanita_logo">
                 <a href="" class="navbar-brand" name="inicio">
                     <h1 class="m-0 text-info"><span class="text-primary">PLANTX</span>ANITA</h1>
                 </a>
@@ -159,9 +151,37 @@
     <div class="container-fluid py-5">
         <div class="container pt-0 pt-lg-4">
             <div class="row align-items-center">
-                <div class="col-lg-5">
-                    <img class="img-fluid" src="img/about.jpg" alt="">
+    <!--Carousel 02 start-->
+                <div class="col-lg-5 carousel slide" id="header-carousel-2" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" width=358 height=477>
+                            <img class="img-fluid" src="img/about.jpg" alt="Image">
+                        </div>
+
+                        <div class="carousel-item" width=358 height=477>
+                            <img class="img-fluid" src="img/about02.jpg" alt="Image">
+                        </div>
+
+                        <div class="carousel-item">
+                            <video controls autoplay loop muted width=358 height=477>
+
+                                <source src="https://i.imgur.com/8kp5DhM.mp4" type="video/mp4">
+                                Lo sentimos. Este vídeo no puede ser reproducido en tu navegador.<br>
+                            </video>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#header-carousel-2" data-slide="prev">
+                        <div class="btn" style="width: 45px; height: 45px;">
+                            <span class="carousel-control-prev-icon mb-n2 btn-secondary"></span>
+                        </div>
+                    </a>
+                    <a class="carousel-control-next" href="#header-carousel-2" data-slide="next">
+                        <div class="btn" style="width: 45px; height: 45px;">
+                            <span class="carousel-control-next-icon mb-n2 btn-secondary"></span>
+                        </div>
+                    </a>
                 </div>
+    <!--Carousel 02 end-->
                 <div class="col-lg-7 mt-5 mt-lg-0 pl-lg-5">
                     <h5 class="text-info text-uppercase font-weight-medium mb-3">Sobre nosotros</h5>
                     <h1 class="mb-4">Estamos en la ciudad y queremos ayudarte </h1>
@@ -274,7 +294,7 @@
                 <div class="col-lg-4 mb-4">
                     <div class="bg-light text-center mb-2 pt-4">
                         <div class="d-inline-flex flex-column align-items-center justify-content-center bg-primary rounded-circle shadow mt-2 mb-4" style="width: 200px; height: 200px; border: 15px solid #ffffff;">
-                            <h4 class="text-white pt-3">Plantxanita Standard</h4>
+                            <h4 class="text-white pt-4">Plantxanita Standard</h4>
                             <h1 class="display-4 text-white mb-0">
                                 <small class="align-top" style="font-size: 22px; line-height: 45px;">€ </small>6 <small class="align-bottom" style="font-size: 16px; line-height: 40px;">/ Kg</small>
                             </h1>
@@ -287,7 +307,7 @@
                 <div class="col-lg-4 mb-4">
                     <div class="bg-light text-center mb-2 pt-4">
                         <div class="d-inline-flex flex-column align-items-center justify-content-center bg-primary rounded-circle shadow mt-2 mb-4" style="width: 200px; height: 200px; border: 15px solid #ffffff;">
-                            <h4 class="text-white pt-3">Plantxanita Express</h4>
+                            <h4 class="text-white pt-4">Plantxanita Express</h4>
                             <h1 class="display-4 text-white mb-0">
                                 <small class="align-top" style="font-size: 22px; line-height: 45px;">€ </small>8 <small class="align-bottom" style="font-size: 16px; line-height: 40px;">/ Kg</small>
                             </h1>

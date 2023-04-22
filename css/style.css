@@ -9536,6 +9536,16 @@ h6,
   }
 }
 
+.logo {
+  width: 7%;
+}
+
+@media (max-width: 991.98px)  {
+  .logo {
+    display:none;
+  }
+}
+
 .nav-bar::before {
   position: absolute;
   content: "";
